@@ -1,13 +1,14 @@
-let money=20
+let money=60000
 console.log(money)
-let income=1000
+let income= 'создание сайтов'
 console.log(income)
-let addExpenses=200
+let addExpenses='интернет, коммуналка, табак)))'
 console.log(addExpenses)
 let deposit= 40
+let deposit= true
 console.log(deposit)
-let mission=45
+let mission=50000
 console.log(mission)
-let period=90
+let period=10
 alert("Heeeeeeeyyyyyoooo!!!");;
 console.log(2102200);
