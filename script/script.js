@@ -13,6 +13,6 @@ console.log('период равен '+ period +' месяцев')
 alert("Heeeeeeeyyyyyoooo!!!");
 console.log(addExpenses.toLowerCase().split())
 console.log(2102200);
-console.log(addExpenses.split())
-let budgetDay= '30 тысяч в месяч доп дохода'
+console.log(addExpenses.split(' ', 3))
+let budgetDay= money/30
 console.log(budgetDay)
