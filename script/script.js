@@ -32,7 +32,7 @@ let accumulatedMonth = getAccumulatedMonth()
 
 
 function getTargetMonth(mission, accumulatedMonth){
-    return mission/accumulatedMonth();
+    return mission/accumulatedMonth;
 };
 
 
@@ -65,7 +65,7 @@ console.log(amount2)
 console.log(getExpensesMonth)
 console.log (getAccumulatedMonth())
 console.log (accumulatedMonth)
-console.log( getTargetMonthgit)
+console.log(getTargetMonth)
 console.log(budgetDay)
 console.log('цель заработать '+ mission + ' рублей')
 console.log('период равен '+ 'period' +' месяцев')
