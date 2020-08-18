@@ -7,28 +7,32 @@ var addExpenses= prompt('“Перечислите возможные расхо
 
 let deposit= confirm('Есть ли у вас депозит в банке?');
 
+function getExpensesMonth(){
+    return amount1 + amount2;    
+ };
+
 let expenses1= prompt ('Введите обязательную статью расходов?');
 let amount1 = +prompt ('Во сколько это обойдется' );
+
 
 
 let expenses2= prompt ('Введите обязательную статью расходов?');
 let amount2= +prompt ('Во сколько это обойдется?');
 
 
-function getExpensesMonth (amount1,amount2){
-    return amount1+amount2;    
- };
 
 
-function getAccumulatedMonth (getExpensesMonth, money){
-    return getAccumulatedMonth - money;
+ 
+
+function getAccumulatedMonth (){
+    return money - getExpensesMonth();
 };
 
 let accumulatedMonth = getAccumulatedMonth()
 
 
 function getTargetMonth(mission, accumulatedMonth){
-    return mission/accumulatedMonth
+    return mission/accumulatedMonth();
 };
 
 
@@ -58,8 +62,10 @@ console.log(expenses1)
 console.log(expenses2)
 console.log(amount1)
 console.log(amount2)
+console.log(getExpensesMonth)
 console.log (getAccumulatedMonth())
 console.log (accumulatedMonth)
+console.log( getTargetMonthgit)
 console.log(budgetDay)
 console.log('цель заработать '+ mission + ' рублей')
 console.log('период равен '+ 'period' +' месяцев')
